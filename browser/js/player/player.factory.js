@@ -15,6 +15,7 @@ juke.factory('PlayerFactory', function($log, $http, $rootScope){
   }
   
   function start(song, albumSongs) {
+    console.log('starting')
   	player.pause();
     songList = albumSongs;
     currentSong = song;
