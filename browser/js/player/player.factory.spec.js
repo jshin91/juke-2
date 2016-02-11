@@ -5,8 +5,8 @@ describe('`PlayerFactory` factory', function () {
 
   var song1, song2;
   before(function () {
-    song1 = { audioUrl: 'http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3' };
-    song2 = { audioUrl: 'http://www.stephaniequinn.com/Music/Jazz%20Rag%20Ensemble%20-%2010.mp3' };
+    song1 = { audioUrl: 'http://localhost:1337/api/songs/56bcc355e490721207bc8437.audio' };
+    song2 = { audioUrl: 'http://localhost:1337/api/songs/56bcc356e490721207bc844c.audio' };
   });
 
   var audioMock, PlayerFactory;
